@@ -36,5 +36,177 @@ import java.text.DecimalFormat;
             
         }
     }
+ #Area of circle
+ 
+import java.util.Scanner;
+import java.text.DecimalFormat;
+class Circle
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        double r=sc.nextDouble();
+        double area;
+        area=3.14*r*r;
+        System.out.printf("%.2f",area);
+    }
+}
+
+# the average of two numbers
+import java.util.Scanner;
+import java.text.DecimalFormat;
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        double a=sc.nextDouble();
+        double b=sc.nextDouble();
+        double avg;
+        avg=(a+b)/2;
+        System.out.printf("%.4f",avg);
+    }
     
+}
+
+#Multiplication
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int mul;
+        mul=a*b;
+        System.out.println(mul);
+    }
+    
+}
+
+#Modulus
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int mod;
+        mod=a%b;
+        System.out.println(mod);
+    }
+    
+}
+
+#Taking Input And Printing
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        
+        System.out.println(a);
+    }
+    
+}
+
+#Adding Two Numbers
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int add;
+        add=a+b;
+        System.out.println(add);
+    }
+    
+}
+
+#Program to find the maximum number of handshakes
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int hs;
+        hs=n*(n-1)/2;
+        System.out.println(hs);
+    }
+    
+}
+
+#Disk Capacity
+
+import java.util.Scanner;
+
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        int s=sc.nextInt();
+        int b=sc.nextInt();
+        int dc;
+        dc=t*s*b*512*2;
+        System.out.println(dc);
+    }
+    
+}
+
+#Program to Find ASCII Value of a Character
+
+import java.util.Scanner;
+    class Sample
+    {
+        public static void main(String[] args)
+        {
+            Scanner sc=new Scanner(System.in);
+            char a=sc.next().charAt(0);
+
+            int ascii = a;
+            System.out.println(ascii);
+            
+        }
+    }
+
+#Program to Multiply Two Floating-Point Numbers
+
+import java.util.Scanner;
+import java.text.DecimalFormat;
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        float b=sc.nextFloat();
+        float mul;
+        mul=a*b;
+        System.out.printf("%.2f",mul);
+    }
+}
+
+
     
